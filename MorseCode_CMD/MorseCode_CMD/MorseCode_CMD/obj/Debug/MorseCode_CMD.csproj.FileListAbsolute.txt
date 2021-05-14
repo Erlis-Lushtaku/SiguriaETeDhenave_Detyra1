@@ -1,0 +1,7 @@
+C:\Users\HP\Documents\GitHub\SiguriaETeDhenave_Detyra1-1\MorseCode_CMD\MorseCode_CMD\MorseCode_CMD\bin\Debug\MorseCode_CMD.exe.config
+C:\Users\HP\Documents\GitHub\SiguriaETeDhenave_Detyra1-1\MorseCode_CMD\MorseCode_CMD\MorseCode_CMD\bin\Debug\MorseCode_CMD.exe
+C:\Users\HP\Documents\GitHub\SiguriaETeDhenave_Detyra1-1\MorseCode_CMD\MorseCode_CMD\MorseCode_CMD\bin\Debug\MorseCode_CMD.pdb
+C:\Users\HP\Documents\GitHub\SiguriaETeDhenave_Detyra1-1\MorseCode_CMD\MorseCode_CMD\MorseCode_CMD\obj\Debug\MorseCode_CMD.csprojAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\SiguriaETeDhenave_Detyra1-1\MorseCode_CMD\MorseCode_CMD\MorseCode_CMD\obj\Debug\MorseCode_CMD.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\SiguriaETeDhenave_Detyra1-1\MorseCode_CMD\MorseCode_CMD\MorseCode_CMD\obj\Debug\MorseCode_CMD.exe
+C:\Users\HP\Documents\GitHub\SiguriaETeDhenave_Detyra1-1\MorseCode_CMD\MorseCode_CMD\MorseCode_CMD\obj\Debug\MorseCode_CMD.pdb

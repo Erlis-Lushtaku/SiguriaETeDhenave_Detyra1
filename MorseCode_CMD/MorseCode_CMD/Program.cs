@@ -10,14 +10,41 @@ namespace MorseCode_CMD
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Shtypni tekstin te cilin doni ta enkodoni sipas Morse kodit: ");
-            string code = Console.ReadLine();
-            Console.WriteLine("Kodi i enkoduar:");
-            Console.WriteLine(morseCodeEncoder(code));
-            Console.WriteLine("Jep kodin e Moorse-it te cilin don me dekodu:");
-            string code = Console.ReadLine();
-            Console.WriteLine("Kodi i dekoduar:");
-            Console.WriteLine(MoorseCodeDecoder(code).ToLower());
+            case1:
+            Console.WriteLine("Zgjedh nese don me enkodu ose dekodu me Moorse code(enkodim ose dekodim!):");
+            string choose = Console.ReadLine();
+            switch (choose) {
+                case "enkodim":
+                    Console.WriteLine("Jep fjalen te cilen don me e enkodu me Moorse code:");
+                    string text = Console.ReadLine();
+                    Console.WriteLine("Teksti i enkoduar me Moorse:");
+                    Console.WriteLine(morseCode(text.ToLower()));
+                    break;
+                case "dekodim":
+                    Console.WriteLine("Zgjedh formen e dekodimit(beep ose tekstual!):");
+                    string decoding= Console.ReadLine();
+                    switch (decoding) {
+                        case "tekstual":
+                            Console.WriteLine("Jep kodin e Moorse-it te cilin don me dekodu:");
+                            string code = Console.ReadLine();
+                            Console.WriteLine("Kodi i dekoduar:");
+                            Console.WriteLine(MoorseCodeDecoder(code).ToLower());
+                            break;
+                        case"beep":
+                            Console.WriteLine("Jep kodin e Moorse-it te cilin don me dekodu:");
+                            string code2 = Console.ReadLine();
+                            Console.WriteLine("Jep vleren e frekuences per beep funksionin:");
+                            int frequency = Convert.ToInt32(Console.ReadLine());
+                            BeepMorseCode(code2, frequency);
+                            break;                   
+                    }
+                    break;
+                default:
+                    Console.WriteLine("Jepni vetem sintaksen e lejuar!");
+                    break;
+            }           
+            goto case1;
+            
         }
         static char decoder(string part)
         {

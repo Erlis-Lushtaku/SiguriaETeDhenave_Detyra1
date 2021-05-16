@@ -1,51 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System;
+using System.IO;
 using System.Text;
-using System.Threading.Tasks;
-
-namespace MorseCode_CMD
+using System.Threading;
+namespace MoorseConsoleApp
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            case1:
-            Console.WriteLine("Zgjedh nese don me enkodu ose dekodu me Moorse code(enkodim ose dekodim!):");
-            string choose = Console.ReadLine();
-            switch (choose) {
-                case "enkodim":
-                    Console.WriteLine("Jep fjalen te cilen don me e enkodu me Moorse code:");
-                    string text = Console.ReadLine();
-                    Console.WriteLine("Teksti i enkoduar me Moorse:");
-                    Console.WriteLine(morseCode(text.ToLower()));
-                    break;
-                case "dekodim":
-                    Console.WriteLine("Zgjedh formen e dekodimit(beep ose tekstual!):");
-                    string decoding= Console.ReadLine();
-                    switch (decoding) {
-                        case "tekstual":
-                            Console.WriteLine("Jep kodin e Moorse-it te cilin don me dekodu:");
-                            string code = Console.ReadLine();
-                            Console.WriteLine("Kodi i dekoduar:");
-                            Console.WriteLine(MoorseCodeDecoder(code).ToLower());
-                            break;
-                        case"beep":
-                            Console.WriteLine("Jep kodin e Moorse-it te cilin don me dekodu:");
-                            string code2 = Console.ReadLine();
-                            Console.WriteLine("Jep vleren e frekuences per beep funksionin:");
-                            int frequency = Convert.ToInt32(Console.ReadLine());
-                            BeepMorseCode(code2, frequency);
-                            break;                   
-                    }
-                    break;
-                default:
-                    Console.WriteLine("Jepni vetem sintaksen e lejuar!");
-                    break;
-            }           
-            goto case1;
-            
-        }
         static char decoder(string part)
         {
             switch (part)
@@ -153,28 +113,9 @@ namespace MorseCode_CMD
             }
             return 'F';
         }
-        static string MoorseCodeDecoder(string encodedword)
+        static string morseEncode(char x)
         {
-            encodedword=encodedword.Trim();
-            StringBuilder decodedword = new StringBuilder();
-            //enes
-            string[] parts = encodedword.Split(" ");          
-            for (int i = 0; i < parts.Length; i++)
-            {
-                try
-                {
-                    if (decoder(parts[i]) == 'F') throw new Exception("False decoding") ;
-                }
-                catch(Exception ex) {
-                    return ex.ToString();                   
-                }
-                decodedword.Append(decoder(parts[i]));
-            }
-            return decodedword.ToString();
-        }
-        static string morseCharachterEncoder(char charToBeEncoded)
-        {
-            switch (charToBeEncoded)
+            switch (x)
             {
                 case 'a':
                     return ".-";
@@ -300,20 +241,96 @@ namespace MorseCode_CMD
                 case '\n':
                     return "/";
             }
-            return "badChar" + charToBeEncoded;
+            return "False";
         }
+        static void BeepMorseCode(string morseTxt, int frequency)
+        {        
+            int unit = 200;
+            for (int i = 0; i < morseTxt.Length; i++)
+            {
+                try
+                {
+                    switch (morseTxt[i])
+                    {
+                        case '.':
+                            Console.Beep(frequency, unit);
+                            break;
 
-        static string morseCodeEncoder(string s)
+                        case '-':
+                            Console.Beep(frequency, 3 * unit);
+                            break;
+
+                        case ' ':
+                            Thread.Sleep(2 * unit);
+                            break;
+                        case '/':
+                            Thread.Sleep(6 * unit);
+                            break;
+                        default:
+                            break;
+                    }
+                    Thread.Sleep(unit);
+                }
+                catch (ArgumentOutOfRangeException ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                    return;
+                }
+                catch (ThreadInterruptedException ex) {
+                    Console.WriteLine(ex.ToString());
+                    return;
+                }
+            }
+        }
+        static string morseCode(string text)
         {
             StringBuilder sb = new StringBuilder();
-            StringBuilder sb1 = new StringBuilder();
-            for (int i = 0; i < s.Length; i++)
+            for (int i = 0; i < text.Length; i++)
             {
-                if (morseCharachterEncoder(s[i]) == "badChar" + s[i])
-                    return "badChar" + s[i];
-                sb.Append((morseCharachterEncoder(s[i]) + " "));
+                try
+                {
+                    if (morseEncode(text[i]) == "False") throw new Exception("False encoding");
+                }
+                catch (Exception ex)
+                {
+                    return ex.ToString();
+                }
+                sb.Append(morseEncode(text[i]) + " ");
             }
             return sb.ToString();
+        }
+        static string MoorseCodeDecoder(string encodedword)
+        {
+            encodedword=encodedword.Trim();
+            StringBuilder decodedword = new StringBuilder();
+            //enes
+            string[] parts = encodedword.Split(" ");          
+            for (int i = 0; i < parts.Length; i++)
+            {
+                try
+                {
+                    if (decoder(parts[i]) == 'F') throw new Exception("False decoding") ;
+                }
+                catch(Exception ex) {
+                    return ex.ToString();                   
+                }
+                decodedword.Append(decoder(parts[i]));
+            }
+            return decodedword.ToString();
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Jep fjalen te cilen don me e enkodu me Moorse code:");
+            string text = Console.ReadLine();
+            Console.WriteLine("Teksti i enkoduar me Moorse:");
+            Console.WriteLine(morseCode(text.ToLower()));
+            Console.WriteLine("Jep kodin e Moorse-it te cilin don me dekodu:");
+            string code = Console.ReadLine();
+            Console.WriteLine("Kodi i dekoduar:");
+            Console.WriteLine(MoorseCodeDecoder(code).ToLower());
+            Console.WriteLine("Jep vleren e frekuences per beep funksionin:");
+            int frequency=Convert.ToInt32(Console.ReadLine());
+            BeepMorseCode(code,frequency);
         }
     }
 }

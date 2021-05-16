@@ -304,7 +304,7 @@ namespace MoorseConsoleApp
             encodedword=encodedword.Trim();
             StringBuilder decodedword = new StringBuilder();
             //enes
-            string[] parts = encodedword.Split(" ");          
+            string[] parts = encodedword.Split(' ');          
             for (int i = 0; i < parts.Length; i++)
             {
                 try

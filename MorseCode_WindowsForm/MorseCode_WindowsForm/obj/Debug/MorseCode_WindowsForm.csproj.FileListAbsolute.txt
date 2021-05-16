@@ -1,0 +1,29 @@
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\Projketi\MorseCode_WindowsForm\MorseCode_WindowsForm\bin\Debug\MorseCode_WindowsForm.exe.config
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\Projketi\MorseCode_WindowsForm\MorseCode_WindowsForm\bin\Debug\MorseCode_WindowsForm.exe
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\Projketi\MorseCode_WindowsForm\MorseCode_WindowsForm\bin\Debug\MorseCode_WindowsForm.pdb
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\Projketi\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\Projketi\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.Properties.Resources.resources
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\Projketi\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\Projketi\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\Projketi\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.exe
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\Projketi\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.pdb
+E:\LISI\FIEK\Viti II\Semestri 4\Siguria e te dhenave - Blerim Rexha\Detyra 1\SiguriaETeDhenave_Projekti1-main\MorseCode_WindowsForm\MorseCode_WindowsForm\bin\Debug\MorseCode_WindowsForm.exe.config
+E:\LISI\FIEK\Viti II\Semestri 4\Siguria e te dhenave - Blerim Rexha\Detyra 1\SiguriaETeDhenave_Projekti1-main\MorseCode_WindowsForm\MorseCode_WindowsForm\bin\Debug\MorseCode_WindowsForm.exe
+E:\LISI\FIEK\Viti II\Semestri 4\Siguria e te dhenave - Blerim Rexha\Detyra 1\SiguriaETeDhenave_Projekti1-main\MorseCode_WindowsForm\MorseCode_WindowsForm\bin\Debug\MorseCode_WindowsForm.pdb
+E:\LISI\FIEK\Viti II\Semestri 4\Siguria e te dhenave - Blerim Rexha\Detyra 1\SiguriaETeDhenave_Projekti1-main\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.csprojAssemblyReference.cache
+E:\LISI\FIEK\Viti II\Semestri 4\Siguria e te dhenave - Blerim Rexha\Detyra 1\SiguriaETeDhenave_Projekti1-main\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\LISI\FIEK\Viti II\Semestri 4\Siguria e te dhenave - Blerim Rexha\Detyra 1\SiguriaETeDhenave_Projekti1-main\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.Properties.Resources.resources
+E:\LISI\FIEK\Viti II\Semestri 4\Siguria e te dhenave - Blerim Rexha\Detyra 1\SiguriaETeDhenave_Projekti1-main\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.csproj.GenerateResource.cache
+E:\LISI\FIEK\Viti II\Semestri 4\Siguria e te dhenave - Blerim Rexha\Detyra 1\SiguriaETeDhenave_Projekti1-main\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.csproj.CoreCompileInputs.cache
+E:\LISI\FIEK\Viti II\Semestri 4\Siguria e te dhenave - Blerim Rexha\Detyra 1\SiguriaETeDhenave_Projekti1-main\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.exe
+E:\LISI\FIEK\Viti II\Semestri 4\Siguria e te dhenave - Blerim Rexha\Detyra 1\SiguriaETeDhenave_Projekti1-main\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.pdb
+C:\Users\Erlis Lushtaku\Documents\GitHub\SiguriaETeDhenave_Detyra1\MorseCode_WindowsForm\MorseCode_WindowsForm\bin\Debug\MorseCode_WindowsForm.exe.config
+C:\Users\Erlis Lushtaku\Documents\GitHub\SiguriaETeDhenave_Detyra1\MorseCode_WindowsForm\MorseCode_WindowsForm\bin\Debug\MorseCode_WindowsForm.exe
+C:\Users\Erlis Lushtaku\Documents\GitHub\SiguriaETeDhenave_Detyra1\MorseCode_WindowsForm\MorseCode_WindowsForm\bin\Debug\MorseCode_WindowsForm.pdb
+C:\Users\Erlis Lushtaku\Documents\GitHub\SiguriaETeDhenave_Detyra1\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.csprojAssemblyReference.cache
+C:\Users\Erlis Lushtaku\Documents\GitHub\SiguriaETeDhenave_Detyra1\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Erlis Lushtaku\Documents\GitHub\SiguriaETeDhenave_Detyra1\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.Properties.Resources.resources
+C:\Users\Erlis Lushtaku\Documents\GitHub\SiguriaETeDhenave_Detyra1\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.csproj.GenerateResource.cache
+C:\Users\Erlis Lushtaku\Documents\GitHub\SiguriaETeDhenave_Detyra1\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.csproj.CoreCompileInputs.cache
+C:\Users\Erlis Lushtaku\Documents\GitHub\SiguriaETeDhenave_Detyra1\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.exe
+C:\Users\Erlis Lushtaku\Documents\GitHub\SiguriaETeDhenave_Detyra1\MorseCode_WindowsForm\MorseCode_WindowsForm\obj\Debug\MorseCode_WindowsForm.pdb

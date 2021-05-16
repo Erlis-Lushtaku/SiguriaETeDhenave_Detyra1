@@ -146,32 +146,155 @@ namespace WindowsFormsApp1
                 case '\n':
                     return "/";
             }
-            return "badChar" + charToBeEncoded;
+            return "False";
         }
 
         static string morseCodeEncoder(string s)
         {
             StringBuilder sb = new StringBuilder();
-            StringBuilder sb1 = new StringBuilder();
+
             for (int i = 0; i < s.Length; i++)
             {
-                if (morseCharachterEncoder(s[i]) == "badChar" + s[i])
-                    return "badChar" + s[i];
+                try
+                {
+                    if (morseCharachterEncoder(s[i]) == "F") throw new Exception("False encoding");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString(), "Warning", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    return "";
+                }
                 sb.Append((morseCharachterEncoder(s[i]) + " "));
             }
             return sb.ToString();
         }
-
-
-        private void Enkodo_Click(object sender, EventArgs e)
+        static char decoder(string part)
         {
-            string plainTeksti = txtPlainText.Text.ToLower().Trim();
-            string tekstiIEnkoduar = morseCodeEncoder(plainTeksti);
-            if (tekstiIEnkoduar == "badChar" + tekstiIEnkoduar[tekstiIEnkoduar.Length - 1])
-                MessageBox.Show("Karakteri " + tekstiIEnkoduar[tekstiIEnkoduar.Length - 1] + " nuk mund te enkodohet sipas Mors kodit.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            else
-                txtEncodedText1.Text = tekstiIEnkoduar;
-        }
+            switch (part)
+            {
+                case ".-":
+                    return 'a';
+                case "-...":
+                    return 'b';
+                case "-.-.":
+                    return 'c';
+                case "-..":
+                    return 'd';
+                case ".":
+                    return 'e';
+                case "..-.":
+                    return 'f';
+                case "--.":
+                    return 'g';
+                case "....":
+                    return 'h';
+                case "..":
+                    return 'i';
+                case ".---":
+                    return 'j';
+                case "-.-":
+                    return 'k';
+                case ".-..":
+                    return 'l';
+                case "--":
+                    return 'm';
+                case "-.":
+                    return 'n';
+                case "---":
+                    return 'o';
+                case ".--.":
+                    return 'p';
+                case "--.-":
+                    return 'q';
+                case ".-.":
+                    return 'r';
+                case "...":
+                    return 's';
+                case "-":
+                    return 't';
+                case "..-":
+                    return 'u';
+                case "...-":
+                    return 'v';
+                case ".--":
+                    return 'w';
+                case "-..-":
+                    return 'x';
+                case "-.--":
+                    return 'y';
+                case "--..":
+                    return 'z';
+                case ".----":
+                    return '1';
+                case "..---":
+                    return '2';
+                case "...--":
+                    return '3';
+                case "....-":
+                    return '4';
+                case ".....":
+                    return '5';
+                case "-....":
+                    return '6';
+                case "--...":
+                    return '7';
+                case "---..":
+                    return '8';
+                case "----.":
+                    return '9';
+                case "-----":
+                    return '0';
 
-    }
-}
+
+                case ".-.-.-":
+                    return '.';
+                case "--..--":
+                    return ',';
+                case "-..-.":
+                    return '/';
+                case "..--..":
+                    return '?';
+                case "-.-.--":
+                    return '!';
+                case ".----.":
+                    return '\'';
+                case "---...":
+                    return ':';
+                case "-...-":
+                    return '=';
+                case ".-...":
+                    return '&';
+                case "-.--.":
+                    return '(';
+                case "-.--.-":
+                    return ')';
+                case "..-.-":
+                    return '¿';
+                case ".--.-.":
+                    return '@';
+                case "/":
+                    return ' ';
+            }
+            return 'F';                                         //nqs pjesa nuk i perket Mors kodit
+        }
+        static string MoorseCodeDecoder(string encodedword)
+        {
+            StringBuilder decodedword = new StringBuilder();
+            string[] parts = encodedword.Split(' ');
+            for (int i = 0; i < parts.Length; i++)
+            {
+                try
+                {
+                    if (decoder(parts[i]) == 'F') throw new Exception("False decoding");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString(), "Warning", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    return "";
+                }
+                decodedword.Append(decoder(parts[i]));
+            }
+            return decodedword.ToString();
+         }
+        }
+        }

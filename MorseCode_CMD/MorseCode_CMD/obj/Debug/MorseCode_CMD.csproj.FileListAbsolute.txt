@@ -12,3 +12,10 @@ C:\Users\Erlis Lushtaku\Documents\GitHub\SiguriaETeDhenave_Detyra1\MorseCode_CMD
 C:\Users\Erlis Lushtaku\Documents\GitHub\SiguriaETeDhenave_Detyra1\MorseCode_CMD\MorseCode_CMD\bin\Debug\MorseCode_CMD.exe.config
 C:\Users\Erlis Lushtaku\Documents\GitHub\SiguriaETeDhenave_Detyra1\MorseCode_CMD\MorseCode_CMD\bin\Debug\MorseCode_CMD.exe
 C:\Users\Erlis Lushtaku\Documents\GitHub\SiguriaETeDhenave_Detyra1\MorseCode_CMD\MorseCode_CMD\bin\Debug\MorseCode_CMD.pdb
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\SiguriaETeDhenave_Detyra1\MorseCode_CMD\MorseCode_CMD\bin\Debug\MorseCode_CMD.exe.config
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\SiguriaETeDhenave_Detyra1\MorseCode_CMD\MorseCode_CMD\bin\Debug\MorseCode_CMD.exe
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\SiguriaETeDhenave_Detyra1\MorseCode_CMD\MorseCode_CMD\bin\Debug\MorseCode_CMD.pdb
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\SiguriaETeDhenave_Detyra1\MorseCode_CMD\MorseCode_CMD\obj\Debug\MorseCode_CMD.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\SiguriaETeDhenave_Detyra1\MorseCode_CMD\MorseCode_CMD\obj\Debug\MorseCode_CMD.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\SiguriaETeDhenave_Detyra1\MorseCode_CMD\MorseCode_CMD\obj\Debug\MorseCode_CMD.exe
+C:\Users\HP\Desktop\Semestri_4\SiguriaTeDhenave2021\SiguriaETeDhenave_Detyra1\MorseCode_CMD\MorseCode_CMD\obj\Debug\MorseCode_CMD.pdb

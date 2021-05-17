@@ -146,25 +146,25 @@ namespace WindowsFormsApp1
                 case '\n':
                     return "/";
             }
-            return "False";
+            return "False"+ charToBeEncoded;
         }
 
         static string morseCodeEncoder(string s)
         {
             StringBuilder sb = new StringBuilder();
-
             for (int i = 0; i < s.Length; i++)
             {
+                string encodedChar = morseCharachterEncoder(s[i]);
                 try
                 {
-                    if (morseCharachterEncoder(s[i]) == "F") throw new Exception("False encoding");
+                    if (encodedChar == "False"+s[i]) throw new Exception("False encoding");
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.ToString(), "Warning", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBox.Show("Karakteri "+s[i]+" nuk mund te enkodohet sipas Mors Kodit!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     return "";
                 }
-                sb.Append((morseCharachterEncoder(s[i]) + " "));
+                sb.Append((encodedChar + " "));
             }
             return sb.ToString();
         }

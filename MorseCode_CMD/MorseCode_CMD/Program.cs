@@ -349,6 +349,9 @@ namespace MoorseConsoleApp
                             int frequency = Convert.ToInt32(Console.ReadLine());
                             BeepMorseCode(code2, frequency);
                             break;
+                        default:
+                            Console.WriteLine("Jepni vetem sintaksen e lejuar!");
+                            break;
                     }
                     break;
                 default:

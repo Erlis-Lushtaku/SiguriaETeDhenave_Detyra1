@@ -1,6 +1,6 @@
 # Detyra e pare ne lenden Siguria e te dhenave
 
-### Universiteti i Prishtines
+## Universiteti i Prishtines
 
 #### Drejtimi:
 Inxhinieri Kompjuterike

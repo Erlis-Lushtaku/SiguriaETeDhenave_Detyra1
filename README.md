@@ -1,20 +1,25 @@
 # Detyra e pare ne lenden Siguria e te dhenave
 
-Universiteti i Prishtines
+### Universiteti i Prishtines
 
-#### Drejtimi: Inxhinieri Kompjuterike
+#### Drejtimi:
+Inxhinieri Kompjuterike
 
 
-#### Tema: Enkoderi dhe dekoderi i Morse kodit. Gjithashtu enkodimi i tekstit permes Console.Beep().
+#### Tema:
+Enkoderi dhe dekoderi i Morse kodit. Gjithashtu enkodimi i tekstit permes Console.Beep().
 
 #### Gjuha Programuese: C#
 
 
-#### Profesori: Blerim Rexha
+#### Profesori:
+Blerim Rexha
 
-#### Asistenti: Arbnor Halili
+#### Asistenti:
+Arbnor Halili
 
-#### Studentet: Donat Sinani, Enes Hasani, Erlis Lushtaku
+#### Studentet:
+Donat Sinani, Enes Hasani, Erlis Lushtaku
 
 
 #### Pershkrimi:

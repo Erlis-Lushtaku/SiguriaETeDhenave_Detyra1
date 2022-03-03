@@ -2,19 +2,19 @@
 
 Universiteti i Prishtines
 
-Drejtimi: Inxhinieri Kompjuterike
+#### Drejtimi: Inxhinieri Kompjuterike
 
 
-Tema: Enkoderi dhe dekoderi i Morse kodit. Gjithashtu enkodimi i tekstit permes Console.Beep().
+#### Tema: Enkoderi dhe dekoderi i Morse kodit. Gjithashtu enkodimi i tekstit permes Console.Beep().
 
-Gjuha Programuese: C#
+#### Gjuha Programuese: C#
 
 
-Profesori: Blerim Rexha
+#### Profesori: Blerim Rexha
 
-Asistenti: Arbnor Halili
+#### Asistenti: Arbnor Halili
 
-Studentet: Donat Sinani, Enes Hasani, Erlis Lushtaku
+#### Studentet: Donat Sinani, Enes Hasani, Erlis Lushtaku
 
 
 #### Pershkrimi:
@@ -24,5 +24,5 @@ Perveq kesaj perdoruesi mund ta degjoje kodin e konvertuar ne Morse kod me ane t
 #### Description
 This program does the conversion of a text given by the user to the Morse code, in addition to this given the Morse code, program decodes it to a plain text. Furthermore user can listen to Morse code of the translated text which is provided as a beep signal.
 
-
-Jane te implementuar dy versione: Console App dhe Windows Form App. Te dyja kryejne funksionin e njejte, dallon vetem menyra e paraqitjes se programit.
+#### Implementimi
+Console App dhe Windows Form App. Te dyja kryejne funksionin e njejte, dallon vetem menyra e paraqitjes se programit.

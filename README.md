@@ -1,24 +1,33 @@
 # Detyra e pare ne lenden Siguria e te dhenave
 
-Universiteti i Prishtines
+### Universiteti i Prishtines
 
-Drejtimi: Inxhinieri Kompjuterike
-
-
-Tema: Enkoderi dhe dekoderi i Morse kodit. Gjithashtu enkodimi i tekstit permes Console.Beep().
-
-Gjuha Programuese: C#
+#### Drejtimi:
+Inxhinieri Kompjuterike
 
 
-Profesori: Blerim Rexha
+#### Tema:
+Enkoderi dhe dekoderi i Morse kodit. Gjithashtu enkodimi i tekstit permes Console.Beep().
 
-Asistenti: Arbnor Halili
-
-Studentet: Donat Sinani, Enes Hasani, Erlis Lushtaku
+#### Gjuha Programuese: C#
 
 
-Pershkrimi:
+#### Profesori:
+Blerim Rexha
+
+#### Asistenti:
+Arbnor Halili
+
+#### Studentet:
+Donat Sinani, Enes Hasani, Erlis Lushtaku
+
+
+#### Pershkrimi:
 Ky program ben konvertimin e nje teksti qe merret nga perdoruesi ne Morse kod dhe dekodimin nga Morse kod ne tekst te thjeshte. 
 Perveq kesaj perdoruesi mund ta degjoje kodin e konvertuar ne Morse kod me ane te sinjaleve beep.
 
-Jane te implementuar dy versione: Console App dhe Windows Form App. Te dyja kryejne funksionin e njejte, dallon vetem menyra e paraqitjes se programit.
+#### Description
+This program does the conversion of a text given by the user to the Morse code, in addition to this given the Morse code, the program decodes it to plain text. Furthermore, the user can listen to the Morse code of the translated text which is provided as a beep signal.
+
+#### Implementimi
+Console App dhe Windows Form App. Te dyja kryejne funksionin e njejte, dallon vetem menyra e paraqitjes se programit.
